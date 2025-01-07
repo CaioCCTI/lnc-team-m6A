@@ -2,7 +2,7 @@
 Viral RNA-Related Analysis with a comprehensive pipeline introduction of our research workflow.
 
 # Table of Contents  
-* [**Introduction**](https://github.com/CaioCCTI/lnc-team/edit/main/README.md#table-of-contents)
+* [**Introduction**](https://github.com/CaioCCTI/lnc-team/edit/main/README.md#introduction)
 
 ## Introduction
 
