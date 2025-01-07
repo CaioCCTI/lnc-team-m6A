@@ -92,7 +92,7 @@ After Step 10, there will be two ".csv" files generated which will be useful for
 Those files should be in the following format:
 
 * "capn1_control_data.indiv_proba.csv"
-* 
+  
 ![image](https://github.com/user-attachments/assets/4e824373-1cdb-4c83-b275-b650c803c9b9)
 
 * "capn1_control_data.site_proba.csv"
