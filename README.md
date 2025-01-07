@@ -6,7 +6,7 @@ Viral RNA-Related Analysis with a comprehensive pipeline introduction of our res
 
 ## Introduction
 
-This project aims to function as a guide for scientists that are interested on working with analysis of lncRNAs (Long No Coding RNAs) and, in order to help with that, various bioinformatics tools and tutorials will be updated in this repository.
+This project aims to function as a guide for scientists that are interested on working with analysis of lncRNAs (Long No Coding RNAs) and, in order to help with that, various bioinformatics tools (m6Anet oriented) and tutorials will be updated in this repository.
 
 ## Prerequisites
 * [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) or [Ubuntu](https://ubuntu.com/download) machine
