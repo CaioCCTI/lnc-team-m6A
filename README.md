@@ -60,5 +60,27 @@ In order to start analyzing the lncRNAs, it is crucial to have the brute Fast5 f
 
 * [Nanopore direct RNA sequencing of SARS-CoV-2:Calu infected 48hpi (SRR13089334)](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13089334&display=data-access) - Infected Calu-3 Cells
 
+## Step 7: Run Minimap2 map to reference Pipeline on gene CAPN1 and Run Samtools index
+In this particular example, we are using Calu_48_Control to be mapped against CAPN1 gene.
 
+```sh
+minimap2 -a -x map-ont CAPN1.fasta ../../Calu_48_Control.fastq.gz | samtools view -bS -F 4 | samtools sort > CAPN1.sorted.bam && samtools index CAPN1.sorted.bam
+```
+## Step 8: Run nanopolish eventalign generating their respective directories
 
+```sh
+mkdir summary && mkdir eventalign && nanopolish eventalign --reads ../../Calu_48_Control.fastq.gz --bam CAPN1.sorted.bam --genome CAPN1.fasta --scale-events --signal-index --summary summary/summary.txt --threads 50 > eventalign/eventalign.txt
+```
+## Step 9: Run m6Anet dataprep step
+
+modify the "--n_processes" parameter according with your processor thread count
+
+```sh
+m6anet dataprep --eventalign eventalign/eventalign.txt --out_dir output/ --n_processes 12
+```
+
+## Step 10: Run m6Anet Inference Step
+
+```sh
+m6anet inference --input_dir output/ --out_dir output_csv/
+```
