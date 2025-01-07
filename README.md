@@ -18,7 +18,7 @@ In order to exemplify, firstly we will use the gene CAPN1 available on: [https:/
 
 ### Step 2: Install m6Anet
 
-In order to install m6Anet, you can follow the instructions on their repository ([GoekeLab/m6Anet](https://github.com/GoekeLab/m6anet/blob/master/README.md?plain=1)) or execute one of the following commands under a python environment:
+In order to install m6Anet, you can follow the instructions on their repository ([GoekeLab/m6Anet](https://github.com/GoekeLab/m6anet/blob/master/README.md)) or execute one of the following commands under a python environment:
 
 ```sh
 $ pip install m6anet
