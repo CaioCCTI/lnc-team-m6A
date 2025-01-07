@@ -1,5 +1,5 @@
 # Welcome to LNC-Team repository!
-Viral RNA-Related Analysis with a comprehensive pipeline introduction of our research workflow.
+Viral RNA-Related Analysis with a comprehensive pipeline introduction of our research workflow with m6ANet.
 
 # Table of Contents  
 * [**Introduction**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#introduction)
