@@ -84,3 +84,15 @@ m6anet dataprep --eventalign eventalign/eventalign.txt --out_dir output/ --n_pro
 ```sh
 m6anet inference --input_dir output/ --out_dir output_csv/
 ```
+
+### Step 11: Visualize Results
+
+After Step 10, there will be two ".csv" files generated which will be useful for Further analysis.
+
+Those files should be in the following format:
+
+* "capn1_control_data.indiv_proba.csv"
+![image](https://github.com/user-attachments/assets/4e824373-1cdb-4c83-b275-b650c803c9b9)
+* "capn1_control_data.site_proba.csv"
+![image](https://github.com/user-attachments/assets/5411a575-a294-46ae-920f-4d265e0a3228)
+
