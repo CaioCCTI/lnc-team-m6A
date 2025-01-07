@@ -46,4 +46,19 @@ conda install bioconda::samtools
 
 ## Step 5: Install minimap2
 
-Minimap2 is needed to generate Binary Alignment Files (.bam)
+Minimap2 is needed to generate Binary Alignment Files (.bam).
+
+```sh
+conda install bioconda::minimap2
+```
+
+## Step 6: Download Brute Fast5 Data from NCBI
+
+In order to start analyzing the lncRNAs, it is crucial to have the brute Fast5 files from one of the NCBI SRA projects, in this particular example we will be using the project PRJNA608224, with the following SRAs:
+
+* [Nanopore direct RNA sequencing of SARS-CoV-2:Calu control 48hpi (SRR13089335)](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&page_size=10&acc=SRR13089335&display=data-access) - Uninfected Calu-3 Cells
+
+* [Nanopore direct RNA sequencing of SARS-CoV-2:Calu infected 48hpi (SRR13089334)](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13089334&display=data-access) - Infected Calu-3 Cells
+
+
+
