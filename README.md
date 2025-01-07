@@ -4,17 +4,17 @@ Viral RNA-Related Analysis with a comprehensive pipeline introduction of our res
 # Table of Contents  
 * [**Introduction**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#introduction)
 * [**Prerequisites**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step1: Obtain Genes**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step2: Install m6Anet**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step3: Install Nanopolish Eventalign**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step4: Install Samtools**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step5: Install minimap2**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step 6: Download Brute Fast5 Data from NCBI**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step 7: Run Minimap2 map to reference Pipeline on gene CAPN1 and Run Samtools index**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step 8: Run nanopolish eventalign generating their respective directories**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step 9: Run m6Anet dataprep step**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step 10: Run m6Anet Inference Step**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
-* [**Step 11: Visualize Results**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
+* [**Step1: Obtain Genes**](https://github.com/CaioCCTI/lnc-team-m6A/blob/main/README.md#step-1-obtain-genes)
+* [**Step2: Install m6Anet**](https://github.com/CaioCCTI/lnc-team-m6A#step-2-install-m6anet)
+* [**Step3: Install Nanopolish Eventalign**](https://github.com/CaioCCTI/lnc-team-m6A#step-3-install-nanopolish-eventalign)
+* [**Step4: Install Samtools**](https://github.com/CaioCCTI/lnc-team-m6A#step-4-install-samtools)
+* [**Step5: Install minimap2**](https://github.com/CaioCCTI/lnc-team-m6A#step-5-install-minimap2)
+* [**Step 6: Download Brute Fast5 Data from NCBI**](https://github.com/CaioCCTI/lnc-team-m6A#step-6-download-brute-fast5-data-from-ncbi)
+* [**Step 7: Run Minimap2 map to reference Pipeline on gene CAPN1 and Run Samtools index**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-7-run-minimap2-map-to-reference-pipeline-on-gene-capn1-and-run-samtools-index)
+* [**Step 8: Run nanopolish eventalign generating their respective directories**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-8-run-nanopolish-eventalign-generating-their-respective-directories)
+* [**Step 9: Run m6Anet dataprep step**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-9-run-m6anet-dataprep-step)
+* [**Step 10: Run m6Anet Inference Step**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-10-run-m6anet-inference-step)
+* [**Step 11: Visualize Results**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-11-visualize-results)
 
 ## Introduction
 
