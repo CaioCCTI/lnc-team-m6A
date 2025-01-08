@@ -6,7 +6,7 @@ Viral RNA-Related Analysis with a comprehensive pipeline introduction of our res
 * [**Prerequisites**](https://github.com/CaioCCTI/lnc-team/blob/main/README.md#prerequisites)
 * [**Step1: Obtain Genes**](https://github.com/CaioCCTI/lnc-team-m6A/blob/main/README.md#step-1-obtain-genes)
 * [**Step2: Install m6Anet**](https://github.com/CaioCCTI/lnc-team-m6A#step-2-install-m6anet)
-* [**Step3: Install Nanopolish Eventalign**](https://github.com/CaioCCTI/lnc-team-m6A#step-3-install-nanopolish-eventalign)
+* [**Step3: Install Nanopolish**](https://github.com/CaioCCTI/lnc-team-m6A#step-3-install-nanopolish)
 * [**Step4: Install Samtools**](https://github.com/CaioCCTI/lnc-team-m6A#step-4-install-samtools)
 * [**Step5: Install minimap2**](https://github.com/CaioCCTI/lnc-team-m6A#step-5-install-minimap2)
 * [**Step 6: Download Brute Fast5 Data from NCBI**](https://github.com/CaioCCTI/lnc-team-m6A#step-6-download-brute-fast5-data-from-ncbi)
@@ -38,9 +38,9 @@ $ pip install m6anet
 ```sh
 $ conda install m6anet
 ```
-### Step 3: Install Nanopolish Eventalign
+### Step 3: Install Nanopolish
 
-One of the prerequisites to run m6Anet is to install the Nanopolish Eventalign tool, since it will be important to index the fastq files that will be obtained shortly after.
+One of the prerequisites to run m6Anet is to install the Nanopolish tool, since it will be important to index the fastq files that will be obtained shortly after.
 
 ```sh
 git clone --recursive https://github.com/jts/nanopolish.git
