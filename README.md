@@ -49,14 +49,6 @@ Conda installation (Requires Conda managed environment)
 conda install bioconda::nanopolish
 ```
 
-Traditional installation (requires GCC Compiler)
-
-```sh
-git clone --recursive https://github.com/jts/nanopolish.git
-cd nanopolish
-make
-```
-
 ### Step 4: Install Samtools
 
 Samtools will be important to manage the alignment (.bam) files, solving their respective indexes.
