@@ -42,6 +42,15 @@ conda install m6anet
 
 One of the prerequisites to run m6Anet is to install the Nanopolish tool, since it will be important to index the fastq files that will be obtained shortly after.
 
+
+Conda installation (Requires Conda managed environment)
+
+```sh
+conda install bioconda::nanopolish
+```
+
+Traditional installation (requires GCC Compiler)
+
 ```sh
 git clone --recursive https://github.com/jts/nanopolish.git
 cd nanopolish
