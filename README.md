@@ -24,6 +24,12 @@ This project aims to function as a guide for scientists that are interested on w
 * [WSL](https://learn.microsoft.com/pt-br/windows/wsl/install) or [Ubuntu](https://ubuntu.com/download) machine
 * [Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/install/linux.html#install-linux-silent)
 
+### Step 0: Find Long No Coding RNAs within literature
+
+The main objective of this tutorial is to help find DRACH motifs on long-no-coding RNAs related do SARS-CoV-2 infection. In order to do that, firstly, we recommend to search in the literature about genes that are LNC and seem to have significance on SARS-CoV-2 infection.
+
+For further curation it is recommended to download and install [Geneious](https://www.geneious.com/) in order to use the "map-to-reference" tool of your reads against the gene of interest.
+
 ### Step 1: Obtain genes
 
 In order to exemplify, firstly we will use the gene CAPN1 available on: [https://www.ncbi.nlm.nih.gov/gene/823](https://www.ncbi.nlm.nih.gov/gene/823)
