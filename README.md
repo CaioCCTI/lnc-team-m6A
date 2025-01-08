@@ -26,7 +26,7 @@ This project aims to function as a guide for scientists that are interested on w
 
 ### Step 0: Find Long No Coding RNAs within literature
 
-The main objective of this tutorial is to help find diferentially methylat6ed DRACH motifs on long-no-coding RNAs related do SARS-CoV-2 infection. In order to do that, firstly, we recommend to search in the literature about genes that are LNC and seem to have significance on SARS-CoV-2 infection.
+The main objective of this tutorial is to help find diferentially methylated DRACH motifs on long-no-coding RNAs related do SARS-CoV-2 infection. In order to do that, firstly, we recommend to search in the literature about genes that are LNC and seem to have significance on SARS-CoV-2 infection.
 
 For further curation it is recommended to download and install [Geneious](https://www.geneious.com/) in order to use the "map-to-reference" tool of your reads against the gene of interest.
 
