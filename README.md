@@ -110,12 +110,13 @@ After Step 10, there will be two ".csv" files generated which will be useful for
 
 Those files should be in the following format:
 
-* "TUG1_infected_data.indiv_proba.csv"
+* "TUG1_control_data.site_proba.csv"
   
-![image](https://github.com/user-attachments/assets/4e824373-1cdb-4c83-b275-b650c803c9b9)
+![image](https://github.com/user-attachments/assets/cf165a16-5095-4127-b01a-585dfa018e40)
+
 
 * "TUG1_infected_data.site_proba.csv"
 
-![image](https://github.com/user-attachments/assets/f637f19f-c028-4fd3-8ca2-31dd583f4050).
+![image](https://github.com/user-attachments/assets/f637f19f-c028-4fd3-8ca2-31dd583f4050)
 
 
