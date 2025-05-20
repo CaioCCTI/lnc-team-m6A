@@ -10,7 +10,7 @@ Viral RNA-Related Analysis with a comprehensive pipeline introduction of our res
 * [**Step4: Install Samtools**](https://github.com/CaioCCTI/lnc-team-m6A#step-4-install-samtools)
 * [**Step5: Install minimap2**](https://github.com/CaioCCTI/lnc-team-m6A#step-5-install-minimap2)
 * [**Step 6: Download Brute Fast5 Data from NCBI**](https://github.com/CaioCCTI/lnc-team-m6A#step-6-download-brute-fast5-data-from-ncbi)
-* [**Step 7: Run Minimap2 map to reference Pipeline on gene CAPN1 and Run Samtools index**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-7-run-minimap2-map-to-reference-pipeline-on-gene-capn1-and-run-samtools-index)
+* [**Step 7: Run Minimap2 map to reference Pipeline on gene TUG1 and Run Samtools index**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-7-run-minimap2-map-to-reference-pipeline-on-gene-TUG1-and-run-samtools-index)
 * [**Step 8: Run nanopolish eventalign generating their respective directories**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-8-run-nanopolish-eventalign-generating-their-respective-directories)
 * [**Step 9: Run m6Anet dataprep step**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-9-run-m6anet-dataprep-step)
 * [**Step 10: Run m6Anet Inference Step**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-10-run-m6anet-inference-step)
@@ -32,7 +32,7 @@ For further curation it is recommended to download and install [Geneious](https:
 
 ### Step 1: Obtain genes
 
-In order to exemplify, firstly we will use the gene CAPN1 available on: [https://www.ncbi.nlm.nih.gov/gene/823](https://www.ncbi.nlm.nih.gov/gene/823)
+In order to exemplify, firstly we will use the gene TUG1 available on: [https://www.ncbi.nlm.nih.gov/gene/823](https://www.ncbi.nlm.nih.gov/gene/823)
 
 ### Step 2: Install m6Anet
 
@@ -79,16 +79,16 @@ In order to start analyzing the lncRNAs, it is crucial to have the brute Fast5 f
 
 * [Nanopore direct RNA sequencing of SARS-CoV-2:Calu infected 48hpi (SRR13089334)](https://trace.ncbi.nlm.nih.gov/Traces/?view=run_browser&acc=SRR13089334&display=data-access) - Infected Calu-3 Cells
 
-### Step 7: Run Minimap2 map to reference Pipeline on gene CAPN1 and Run Samtools index
-In this particular example, we are using Calu_48_Control to be mapped against CAPN1 gene.
+### Step 7: Run Minimap2 map to reference Pipeline on gene TUG1 and Run Samtools index
+In this particular example, we are using Calu_48_Control to be mapped against TUG1 gene.
 
 ```sh
-minimap2 -a -x map-ont CAPN1.fasta ../../Calu_48_Control.fastq.gz | samtools view -bS -F 4 | samtools sort > CAPN1.sorted.bam && samtools index CAPN1.sorted.bam
+minimap2 -a -x map-ont TUG1.fasta ../../Calu_48_Control.fastq.gz | samtools view -bS -F 4 | samtools sort > TUG1.sorted.bam && samtools index TUG1.sorted.bam
 ```
 ### Step 8: Run nanopolish eventalign generating their respective directories
 
 ```sh
-mkdir summary && mkdir eventalign && nanopolish eventalign --reads ../../Calu_48_Control.fastq.gz --bam CAPN1.sorted.bam --genome CAPN1.fasta --scale-events --signal-index --summary summary/summary.txt --threads 50 > eventalign/eventalign.txt
+mkdir summary && mkdir eventalign && nanopolish eventalign --reads ../../Calu_48_Control.fastq.gz --bam TUG1.sorted.bam --genome TUG1.fasta --scale-events --signal-index --summary summary/summary.txt --threads 50 > eventalign/eventalign.txt
 ```
 ### Step 9: Run m6Anet dataprep step
 
@@ -110,11 +110,11 @@ After Step 10, there will be two ".csv" files generated which will be useful for
 
 Those files should be in the following format:
 
-* "capn1_control_data.indiv_proba.csv"
+* "TUG1_control_data.indiv_proba.csv"
   
 ![image](https://github.com/user-attachments/assets/4e824373-1cdb-4c83-b275-b650c803c9b9)
 
-* "capn1_control_data.site_proba.csv"
+* "TUG1_control_data.site_proba.csv"
 
 ![image](https://github.com/user-attachments/assets/5411a575-a294-46ae-920f-4d265e0a3228)
 
