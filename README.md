@@ -134,6 +134,6 @@ The primary variable chosen to compare the methylation distribution between the 
 To visualize the distributional differences between groups, we generated violin plots using the ggplot2 package (version 3.5.1) in R. Violin plots provide comprehensive graphical representation of data distribution by combining a box plot with a kernel density estimate, enabling the visualization of both summary statistics and the underlying probability density function. An example of violing plot is showed as below:
 
 <div align="center">
-<img src="https://github.com/user-attachments/assets/d515df68-263d-4e0e-9a90-85ddba89cba7" alt="image" width="300" height="auto">
+<img src="https://github.com/user-attachments/assets/d515df68-263d-4e0e-9a90-85ddba89cba7" alt="image" width="1024" height="720">
 </div>
 
