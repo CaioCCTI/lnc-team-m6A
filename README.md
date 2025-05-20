@@ -116,5 +116,6 @@ Those files should be in the following format:
 
 * "TUG1_infected_data.site_proba.csv"
 
-![image](![image]https://github.com/user-attachments/assets/196e172c-3c6b-4487-a2a4-562788d5be31)
+![image](https://github.com/user-attachments/assets/f637f19f-c028-4fd3-8ca2-31dd583f4050).
+
 
