@@ -15,7 +15,7 @@ Viral RNA-Related Analysis with a comprehensive pipeline introduction of our res
 * [**Step 9: Run m6Anet dataprep step**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-9-run-m6anet-dataprep-step)
 * [**Step 10: Run m6Anet Inference Step**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-10-run-m6anet-inference-step)
 * [**Step 11: Visualize Results**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-11-visualize-results)
-* [**Step 11: Visualize Results**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-11-visualize-results)
+* [**Step 12: Analyzing Results**](https://github.com/CaioCCTI/lnc-team-m6A/blob/main/README.md#step-12-analyzing-results)
 
 ## Introduction
 
