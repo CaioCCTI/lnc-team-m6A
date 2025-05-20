@@ -127,6 +127,8 @@ To apply the WMW test to our date, we firstly gathered all predictions generated
 
 The primary variable chosen to compare the methylation distribution between the two groups was the umber of reads per sites (n reads). Since the number of reads per site is not standardized by default, data normalization was required. For this, the number of reads per site in each group was divided by the total number of reads in that group using the equation expressed below. After normalization, the data underwent a negative logarithm transformation (−log) to enhance visualization consistency across samples:
 
-<img src="https://github.com/user-attachments/assets/2ec5bebf-453c-434e-8f35-d92ba4788f29" alt="image" width="300" height="auto", style="text-align: center">
+<div align="center">
+<img src="https://github.com/user-attachments/assets/2ec5bebf-453c-434e-8f35-d92ba4788f29" alt="image" width="300" height="auto">
+</div>
 
 To visualize the distributional differences between groups, we generated violin plots using the ggplot2 package (version 3.5.1) in R. Violin plots provide comprehensive graphical representation of data distribution by combining a box plot with a kernel density estimate, enabling the visualization of both summary statistics and the underlying probability density function.
