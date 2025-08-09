@@ -189,12 +189,12 @@ With the SubseqDP + hybridDP columns results, it is possible to visualize the se
 
 The input for FORNA sould be as following:
 
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e84df8f0-69b9-4470-9813-b73813a52911" />
+<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/e84df8f0-69b9-4470-9813-b73813a52911" />
 
 Still in FORNA, remove the "&" character in both sequences and secondary structure predictions.
 
 The result should be something like this:
 
-<img width="6113" height="4050" alt="UCA1_001_Wuhan_Interaction_E" src="https://github.com/user-attachments/assets/03df389d-7a31-4ab7-b468-ec43228cd962" />
+<img width="600" height="600" alt="UCA1_001_Wuhan_Interaction_E" src="https://github.com/user-attachments/assets/03df389d-7a31-4ab7-b468-ec43228cd962" />
 
 
