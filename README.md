@@ -183,13 +183,13 @@ Since intaRNA is a complex program, it may be appropriate to check the original 
 
 After running IntaRNA, the program should emit a ".csv" file, exemplified as the following image:
 
-<img width="1207" height="244" alt="image" src="https://github.com/user-attachments/assets/ca450eb6-aed1-4960-aaf9-0efb5da80ab7" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca450eb6-aed1-4960-aaf9-0efb5da80ab7" />
 
 With the SubseqDP + hybridDP columns results, it is possible to visualize the secondary structure interaction via FORNA, available in [FORNA Webserver](http://rna.tbi.univie.ac.at/forna/)
 
 The input for FORNA sould be as following:
 
-<img width="1636" height="723" alt="image" src="https://github.com/user-attachments/assets/e84df8f0-69b9-4470-9813-b73813a52911" />
+<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/e84df8f0-69b9-4470-9813-b73813a52911" />
 
 Still in FORNA, remove the "&" character in both sequences and secondary structure predictions.
 
