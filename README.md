@@ -16,6 +16,7 @@ Viral RNA-Related Analysis with a comprehensive pipeline introduction of our res
 * [**Step 10: Run m6Anet Inference Step**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-10-run-m6anet-inference-step)
 * [**Step 11: Visualize Results**](https://github.com/CaioCCTI/lnc-team-m6A?tab=readme-ov-file#step-11-visualize-results)
 * [**Step 12: Analyzing Results**](https://github.com/CaioCCTI/lnc-team-m6A/blob/main/README.md#step-12-analyzing-results)
+* [**Step 13: IntaRNA Analysis**](https://github.com/CaioCCTI/lnc-team-m6A/blob/main/README.md#step-12-analyzing-results)
 
 ## Introduction
 
@@ -137,4 +138,47 @@ To visualize the distributional differences between groups, we generated violin 
 <div align="center">
 <img src="https://github.com/user-attachments/assets/d515df68-263d-4e0e-9a90-85ddba89cba7" alt="image" width="600" height="600">
 </div>
+
+### Step 13: IntaRNA interaction analysis
+
+#### Explanation
+
+IntaRNA is a powerful tool for predicting interactions between RNA molecules, such as lncRNAs and microRNAs (miRNAs)
+
+IntaRNA calculates the hybridization energy between two RNA molecules to predict the most likely interaction site. The fundamental principle is that a more stable interaction has a lower Gibbs free energy (a more negative value). The tool not only predicts the total energy of the interaction but also considers the accessibility of the binding sites on both RNA molecules, which makes its prediction more accurate.
+
+There are two ways to use IntaRNA, the first is through the web server hosted at [IntaRNA Server](https://rna.informatik.uni-freiburg.de/IntaRNA/Input.jsp), offering a simpler (but limited on sequence length) workflow for predicting interactions between 2 molecules. The second way is to download and IntaRNA locally and, since we applied it locally, we covered the installation and configuration process below.
+
+#### IntaRNA local installation
+
+Conda Installation (Requires Conda managed environment):
+
+```sh
+conda install -c bioconda intarna
+```
+
+After installation, you can test IntaRNA by calling:
+
+```sh
+IntaRNA --version
+```
+
+It should output something like:
+
+```sh
+IntaRNA 3.4.1
+ using Vienna RNA package 2.7.0 and boost 1.85.0
+```
+
+#### Usage
+In order to start IntaRNA Interaction prediction, download two ".fasta" sequences of interest and run the following command, for example:
+
+```sh
+IntaRNA --query=./Seqs/[your_query_sequence].fasta --target=./Seqs/[your_target].fasta --mode=H --outNumber=10 --outmode C --threads 12 > output.csv
+```
+
+Since intaRNA is a complex program, it may be appropriate to check the original software documentation, available on: [https://github.com/BackofenLab/IntaRNA](https://github.com/BackofenLab/IntaRNA)
+
+#### Interaction Analysis
+
 
