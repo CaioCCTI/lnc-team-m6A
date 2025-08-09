@@ -1,0 +1,150 @@
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -70.7 kcal/mol
+p-value: 0.033732
+
+position  1815
+target 5' A     CUUAC     UUC      UUAUGACU                 U   UC   CCC    CCAA             A       CU       U 3'
+           CCCAC      GACA    CACCA        UGUC CACCAUUAUGAC UGU  CUG   UGCC        CUG  AUCA  UCAACC  GUGACAU    
+           GGGUG      CUGU    GUGGU        ACAG GUGGUGAUGCUG GCA  GAC   ACGG        GAC  UGGU  AGUUGG  UAUUGUA    
+miRNA  3'       UACUCC    UCCU     UC          A                U    UU     AAGCUCAA   GA    CG                 5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -69.2 kcal/mol
+p-value: 0.043890
+
+position  259
+target 5' G             UCCUUC U  G     CCCCC   C  G      CAUU     AA   AUCCACC   GACC      C  CAG      C   GG       C 3'
+           CCA   GGGGGAC      G GA ACCGG     UGU CU GCC CU    CCGUG  GAG       UGC    UCGGGU CU   ACCAGC CAA    AACAU    
+           GGU   CUCCCUG      C CU UGGUU     ACA GA UGG GA    GGCAU  CUU       ACG    AGCUCA GA   UGGUCG GUU    UUGUA    
+miRNA  3' G   GUA       UU        G     C          G   U  UGCU     GA             GA        A  CGA      A   GGUA       5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -64.9 kcal/mol
+p-value: 0.092811
+
+position  1909
+target 5' C   U            U  GU  CAUCA    U    C   C     UG   CC   C  C         GAGGAUA    C  U          U  3'
+           UCC       GGACAA GA  CC     UCUC CCAC AUG ACC U  UGA   CC UC    UCUGCU       ACCA CU UAACUGUAAC     
+           GGG       CCUGUU CU  GG     AGAG GGUG UGC UGG A  ACU   GG AG    AGACGA       UGGU GA GUUGGUAUUG     
+miRNA  3'     UGUACUC      C  GU  UUCAC    U    A       C UG   UAC  A  CUCA                 C             UA 5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -64.5 kcal/mol
+p-value: 0.099562
+
+position  2067
+target 5' G     U  CACC     U  AUUAACA   UU  UG     A  AA   C        GG       UAUAC  ACAC  GUGA   GAAC       CAAA    G 3'
+           CCCAC UG     CAAG GA       GCC  GU  CUCAC CA    G CUG AUUG  UGUCUUC     GG    GC    CAG    CUCAACC    GGCA    
+           GGGUG AC     GUUC CU       UGG  CA  GAGUG GU    C GGC UGAC  ACGGAAG     UC    CG    GUC    GAGUUGG    UUGU    
+miRNA  3'       U  UCCCU       G         UU  CA        GAUG U   A    UU       C      AAGA  AUG               UA      A 5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -63.6 kcal/mol
+p-value: 0.116036
+
+position  382
+target 5' U   CG  UU   U   UGAA   UGAUGCUGC    UC C   AGAA   C  UG    AUCACA      GAGC       AAC   UA       GGAGGAUUCC        UG A 3'
+           CCU  GC   AG GGC    GAC         CCGA  G CUC    GCC CU  GACC      GAUGCC    UUCGGGU   UCU     CGGU          CAGCCAUA  A    
+           GGG  UG   UC CUG    CUG         GGUU  C GAG    UGG GA  CUGG      UUACGG    AAGCUCA   AGA     GUCG          GUUGGUAU  U    
+miRNA  3'         UAC  C   UUC    U            CA A          U  UG    CAUGAC                       CGAUG    A                 UG A 5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -62.8 kcal/mol
+p-value: 0.132781
+
+position  547
+target 5' C      GCCUCAAU    CA       UACCCG   AUUUAUAGCA         U     CCAU   C  GAC   CUCCA        ACCAUU    AAUAA      GCCCAUCA    G 3'
+           UCUACA        GGAC   GAC CC      GUC          CACCA  AC GCCGU    CUG AG   CCU     UUGGGUUC      CCAG     AGCCAU        GACA    
+           GGGUGU        CCUG   CUG GG      CAG          GUGGU  UG UGGCA    GAC UU   GGA     AGCUCAAG      GGUC     UUGGUA        UUGU    
+miRNA  3'        ACUC        UUC   U  UUCA     A              GA  C     U         AC                 ACGAU     GAG                    A 5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -61.9 kcal/mol
+p-value: 0.153499
+
+position  1034
+target 5'  A     AU     C  UUCCACAUAUUU   A     ACCAG   U   GG  A  ACAAA    GU  UU    GUUA   GG U  GGACAUUUCACUCU        C      UAAUCCAGGA    A 3'
+            CGCAU  GGGGC AG            GGC ACCAG      CA CCA  AC AC     GUAU  UG  UGUU    GAG  C UG              UUGCCAGC UCAGCU          GACA    
+            GUGUA  CCCUG UC            CUG UGGUU      GU GGU  UG UG     CAUG  AC  ACGG    CUC  G AC              GAUGGUCG AGUUGG          UUGU    
+miRNA  3' GG     CU     U                       CACAGA      GA  C  G            UU    AAG    AA                                 UA            A 5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -60.2 kcal/mol
+p-value: 0.203886
+
+position  1704
+target 5' A   C     CCU   CAUAUCCGUCC   UG   UGC  GA        A     A         GCA   GAAAAACCACAAA A   GAAACA        CU   U    U  3'
+           CCC UGUGA   GCA           AGG  GCC   AG      GCCA    GA  GU CUGGA   GCC             G AGU      GCCAGUUC  GCC UAAC     
+           GGG GUACU   UGU           UCC  UGG   UC      UGGU    CU  CA GACUU   CGG             C UCA      UGGUCGAG  UGG AUUG     
+miRNA  3'     U     CCC                 UG   U    ACAGAG    GAUG  GG  U     A     AAG               AGACGA        U    U    UA 5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -58.1 kcal/mol
+p-value: 0.283152
+
+position  1295
+target 5' U        UGGAAAAUG      AA   CUUUGGUACAUAAA  AUUAUUCCUUCCUUG   UAAAAAC  A      C        AAA   AAU      GAUUACUGUUUUUA   AA  UAUUUUAUUAGG  AGUU  A      AAAAUAC    AC     C 3'
+           UCGUAUGA         GGGACA  AGG              AC               GCC       UC UCGCCA CUAC AUU   GCU   AUGCCU              GAG  CU            GC    CC AGCUCA       GCUA  UGGCA    
+           GGUGUACU         CCCUGU  UCC              UG               UGG       AG AGUGGU GAUG UGG   UGA   UACGGA              CUC  GA            CG    GG UCGAGU       UGGU  AUUGU    
+miRNA  3' G                                                              UUCAC                C   CA    CU       AG               AA                AU                             A 5'
+
+
+target: ENST00000397381.4
+length: 2299
+miRNA : OM095411.1
+length: 88
+
+mfe: -58.0 kcal/mol
+p-value: 0.287043
+
+position  1
+target 5'      A     UCC                   U    C   C     UG   CU   C  C         GACAACAGAUA    C  U          U  3'
+             AC AUGAG         CAUCA    UCUC CCAC AUG ACC U  UGA   CC UC    UCUGCU           ACCA CU UAACUGUAAC     
+             UG UACUC         GUGGU    AGAG GGUG UGC UGG A  ACU   GG AG    AGACGA           UGGU GA GUUGGUAUUG     
+miRNA  3' GGG        CCUGUUCCU     UCAC    U    A       C UG   UAC  A  CUCA                     C             UA 5'
+
+

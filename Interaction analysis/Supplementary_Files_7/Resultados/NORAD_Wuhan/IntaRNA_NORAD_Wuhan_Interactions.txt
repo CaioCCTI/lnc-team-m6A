@@ -1,0 +1,281 @@
+# INFO : Since no seed constraint needed: resetting model from 'X' to 'S'
+
+ENST00000565493.1
+          4078                                                                    4144
+             |                                                                    |
+5'-AGU...AUGC      UUCAUU      UU                 GGU--    AG  G  GU   C  G      - GUUC...GUA-3'
+             AGACUA      GGGUGU  GGGGUGGGGGAAGGGGG     GGGC  AG AG  AUG AG GAGAGG G
+             ||||||      ::|::|  ::|:|:|:|:||:||||     :|||  || ||  |:| || :|:||| |
+             UCUGAU      UUCGUA  UUCUAUCUCUUUUCCCC     UCCG  UC UC  UGC UC UUUUCC C
+3'-AAA...UUCA      ------      U-                 GAAGU    G-  G  GU   -  G      A ACUC...UUA-5'
+             |                                                                    |
+         25729                                                                    25669
+NC_045512.2
+
+interaction seq1   = 4078..4144
+interaction seq2   = 25669..25729
+
+interaction energy = -34.62 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -58.4
+  + E(dangleLeft)  = -0.09
+  + E(dangleRight) = -1.01
+  + E(endLeft)     = 0.5
+  + E(endRight)    = 0
+    : E(hybrid)    = -54.9
+  + ED(seq1)       = 10.15
+    : Pu(seq1)     = 7.04265e-08
+  + ED(seq2)       = 10.13
+    : Pu(seq2)     = 7.27493e-08
+
+ENST00000565493.1
+          3999                                                                                                                                                                    4146
+             |                                                                                                                                                                    |
+5'-AGU...CUAA C        UC-   A    CUA  -        C      GAA--   A       AAAC   A  C    GA C      AGACUA   AUU   U         GG-------------   AA    G       A   GAGGU      GGAGAG-    UCUG...GUA-3'
+             G AUUUGUUU   AGU CUUC   GG AGUGGUUG AUUUGG     UGG AUUGUUA    UUG UG UUAG  G GAAUGC      UUC   GGG GUUUGGGGU               GGG  GGGG GGUGGGC GAG     AUGCAG       GGGU
+             | |||:||:|   ||: ||||   || |||:|::: ||||||     ||| |:||:||    ||| || |||:  | |||:||      :||   ||| :|||::|||               |:|  :|:| ||||::| :||     |:||||       ||||
+             C UAAGCAGA   UCG GAAG   CC UCAUCGGU UAAACC     ACC UGACGAU    AAC AC AAUU  C CUUGCG      GAG   CCC UAAAUUCCA               CUC  UCUC CCACUUG UUC     UGCGUC       CCCA
+3'-AAA...GGUG U        CCA   A    ---  A        -      AGUAG   -       ----   C  -    AA -      GAACAG   CU-   U         GAAGGAACGGUACAA   AC    G       G   -----      AUAAUAA    UUUG...UUA-5'
+             |                                                                                                                                                                    |
+         28556                                                                                                                                                                    28408
+NC_045512.2
+
+interaction seq1   = 3999..4146
+interaction seq2   = 28408..28556
+
+interaction energy = -34.28 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -94
+  + E(dangleLeft)  = -1.09
+  + E(dangleRight) = -0.5
+  + E(endLeft)     = 0
+  + E(endRight)    = 0.5
+    : E(hybrid)    = -90.99
+  + ED(seq1)       = 29.85
+    : Pu(seq1)     = 9.24701e-22
+  + ED(seq2)       = 26.86
+    : Pu(seq2)     = 1.18284e-19
+
+ENST00000565493.1
+          4001                                                                                                                                                                  4146
+             |                                                                                                                                                                  |
+5'-AGU...AAGC        UC-   A    CUA  -        C      GAA--   A       AAAC   A  C    GA C      AGACUA   AUU   U         GG-------------   AA    G       A   GAGGU      GGAGAG-    UCUG...GUA-3'
+             AUUUGUUU   AGU CUUC   GG AGUGGUUG AUUUGG     UGG AUUGUUA    UUG UG UUAG  G GAAUGC      UUC   GGG GUUUGGGGU               GGG  GGGG GGUGGGC GAG     AUGCAG       GGGU
+             |||:||:|   ||: ||||   || |||:|::: ||||||     ||| |:||:||    ||| || |||:  | |||:||      :||   ||| :|||::|||               |:|  :|:| ||||::| :||     |:||||       ||||
+             UAAGCAGA   UCG GAAG   CC UCAUCGGU UAAACC     ACC UGACGAU    AAC AC AAUU  C CUUGCG      GAG   CCC UAAAUUCCA               CUC  UCUC CCACUUG UUC     UGCGUC       CCCA
+3'-AAA...UGCU        CCA   A    ---  A        -      AGUAG   -       ----   C  -    AA -      GAACAG   CU-   U         GAAGGAACGGUACAA   AC    G       G   -----      AUAAUAA    UUUG...UUA-5'
+             |                                                                                                                                                                  |
+         28554                                                                                                                                                                  28408
+NC_045512.2
+
+interaction seq1   = 4001..4146
+interaction seq2   = 28408..28554
+
+interaction energy = -34.25 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -95.2
+  + E(dangleLeft)  = -0.53
+  + E(dangleRight) = -0.43
+  + E(endLeft)     = 0.5
+  + E(endRight)    = 0.5
+    : E(hybrid)    = -91.06
+  + ED(seq1)       = 30.12
+    : Pu(seq1)     = 5.96684e-22
+  + ED(seq2)       = 26.69
+    : Pu(seq2)     = 1.55853e-19
+
+ENST00000565493.1
+          4079                                                                   4144
+             |                                                                   |
+5'-AGU...UGCA     UUCAUU      UU                 GGU--    AG  G  GU   C  G      - GUUC...GUA-3'
+             GACUA      GGGUGU  GGGGUGGGGGAAGGGGG     GGGC  AG AG  AUG AG GAGAGG G
+             |||||      ::|::|  ::|:|:|:|:||:||||     :|||  || ||  |:| || :|:||| |
+             CUGAU      UUCGUA  UUCUAUCUCUUUUCCCC     UCCG  UC UC  UGC UC UUUUCC C
+3'-AAA...UCAU     ------      U-                 GAAGU    G-  G  GU   -  G      A ACUC...UUA-5'
+             |                                                                   |
+         25728                                                                   25669
+NC_045512.2
+
+interaction seq1   = 4079..4144
+interaction seq2   = 25669..25728
+
+interaction energy = -33.87 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -56.3
+  + E(dangleLeft)  = -0.89
+  + E(dangleRight) = -0.99
+  + E(endLeft)     = 0
+  + E(endRight)    = 0
+    : E(hybrid)    = -54.08
+  + ED(seq1)       = 10.15
+    : Pu(seq1)     = 7.04265e-08
+  + ED(seq2)       = 10.06
+    : Pu(seq2)     = 8.14995e-08
+
+ENST00000565493.1
+          4099                                               4144
+             |                                               |
+5'-AGU...UUUG                GGU--    AG  G  GU   C  G      - GUUC...GUA-3'
+             GGGUGGGGGAAGGGGG     GGGC  AG AG  AUG AG GAGAGG G
+             :|:|:|:|:||:||||     :|||  || ||  |:| || :|:||| |
+             UCUAUCUCUUUUCCCC     UCCG  UC UC  UGC UC UUUUCC C
+3'-AAA...UAUU                GAAGU    G-  G  GU   -  G      A ACUC...UUA-5'
+             |                                               |
+         25715                                               25669
+NC_045512.2
+
+interaction seq1   = 4099..4144
+interaction seq2   = 25669..25715
+
+interaction energy = -33.27 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -50
+  + E(dangleLeft)  = -0.09
+  + E(dangleRight) = -1.33
+  + E(endLeft)     = 0.5
+  + E(endRight)    = 0
+    : E(hybrid)    = -46.82
+  + ED(seq1)       = 6.12
+    : Pu(seq1)     = 4.8697e-05
+  + ED(seq2)       = 7.43
+    : Pu(seq2)     = 5.81302e-06
+
+ENST00000565493.1
+          4002                                                                                                                                                                 4146
+             |                                                                                                                                                                 |
+5'-AGU...AGCA       UC-   A    CUA  -        C      GAA--   A       AAAC   A  C    GA C      AGACUA   AUU   U         GG-------------   AA    G       A   GAGGU      GGAGAG-    UCUG...GUA-3'
+             UUUGUUU   AGU CUUC   GG AGUGGUUG AUUUGG     UGG AUUGUUA    UUG UG UUAG  G GAAUGC      UUC   GGG GUUUGGGGU               GGG  GGGG GGUGGGC GAG     AUGCAG       GGGU
+             ||:||:|   ||: ||||   || |||:|::: ||||||     ||| |:||:||    ||| || |||:  | |||:||      :||   ||| :|||::|||               |:|  :|:| ||||::| :||     |:||||       ||||
+             AAGCAGA   UCG GAAG   CC UCAUCGGU UAAACC     ACC UGACGAU    AAC AC AAUU  C CUUGCG      GAG   CCC UAAAUUCCA               CUC  UCUC CCACUUG UUC     UGCGUC       CCCA
+3'-AAA...GCUU       CCA   A    ---  A        -      AGUAG   -       ----   C  -    AA -      GAACAG   CU-   U         GAAGGAACGGUACAA   AC    G       G   -----      AUAAUAA    UUUG...UUA-5'
+             |                                                                                                                                                                 |
+         28553                                                                                                                                                                 28408
+NC_045512.2
+
+interaction seq1   = 4002..4146
+interaction seq2   = 28408..28553
+
+interaction energy = -33.1 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -94.1
+  + E(dangleLeft)  = -0.57
+  + E(dangleRight) = -0.42
+  + E(endLeft)     = 0.5
+  + E(endRight)    = 0.5
+    : E(hybrid)    = -89.99
+  + ED(seq1)       = 30.23
+    : Pu(seq1)     = 4.99151e-22
+  + ED(seq2)       = 26.66
+    : Pu(seq2)     = 1.63627e-19
+
+ENST00000565493.1
+          4098                                                4144
+             |                                                |
+5'-AGU...GUUU                 GGU--    AG  G  GU   C  G      - GUUC...GUA-3'
+             GGGGUGGGGGAAGGGGG     GGGC  AG AG  AUG AG GAGAGG G
+             ::|:|:|:|:||:||||     :|||  || ||  |:| || :|:||| |
+             UUCUAUCUCUUUUCCCC     UCCG  UC UC  UGC UC UUUUCC C
+3'-AAA...GUAU                 GAAGU    G-  G  GU   -  G      A ACUC...UUA-5'
+             |                                                |
+         25716                                                25669
+NC_045512.2
+
+interaction seq1   = 4098..4144
+interaction seq2   = 25669..25716
+
+interaction energy = -32.96 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -50.5
+  + E(dangleLeft)  = -0.43
+  + E(dangleRight) = -1.4
+  + E(endLeft)     = 0.5
+  + E(endRight)    = 0
+    : E(hybrid)    = -47.73
+  + ED(seq1)       = 7.34
+    : Pu(seq1)     = 6.72699e-06
+  + ED(seq2)       = 7.43
+    : Pu(seq2)     = 5.81302e-06
+
+ENST00000565493.1
+          4076                                                                      4144
+             |                                                                      |
+5'-AGU...GAAU C      UUCAUU      UU                 GGU--    AG  G  GU   C  G      - GUUC...GUA-3'
+             G AGACUA      GGGUGU  GGGGUGGGGGAAGGGGG     GGGC  AG AG  AUG AG GAGAGG G
+             | ||||||      ::|::|  ::|:|:|:|:||:||||     :|||  || ||  |:| || :|:||| |
+             C UCUGAU      UUCGUA  UUCUAUCUCUUUUCCCC     UCCG  UC UC  UGC UC UUUUCC C
+3'-AAA...UCUU A      ------      U-                 GAAGU    G-  G  GU   -  G      A ACUC...UUA-5'
+             |                                                                      |
+         25731                                                                      25669
+NC_045512.2
+
+interaction seq1   = 4076..4144
+interaction seq2   = 25669..25731
+
+interaction energy = -32.63 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -57.2
+  + E(dangleLeft)  = -0.33
+  + E(dangleRight) = -0.77
+  + E(endLeft)     = 0
+  + E(endRight)    = 0
+    : E(hybrid)    = -54.2
+  + ED(seq1)       = 11.45
+    : Pu(seq1)     = 8.54441e-09
+  + ED(seq2)       = 10.12
+    : Pu(seq2)     = 7.39393e-08
+
+ENST00000565493.1
+          4100                                              4144
+             |                                              |
+5'-AGU...UUGG               GGU--    AG  G  GU   C  G      - GUUC...GUA-3'
+             GGUGGGGGAAGGGGG     GGGC  AG AG  AUG AG GAGAGG G
+             |:|:|:|:||:||||     :|||  || ||  |:| || :|:||| |
+             CUAUCUCUUUUCCCC     UCCG  UC UC  UGC UC UUUUCC C
+3'-AAA...AUUU               GAAGU    G-  G  GU   -  G      A ACUC...UUA-5'
+             |                                              |
+         25714                                              25669
+NC_045512.2
+
+interaction seq1   = 4100..4144
+interaction seq2   = 25669..25714
+
+interaction energy = -32.61 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -47.9
+  + E(dangleLeft)  = -0.41
+  + E(dangleRight) = -1.42
+  + E(endLeft)     = 0
+  + E(endRight)    = 0
+    : E(hybrid)    = -45.63
+  + ED(seq1)       = 5.58
+    : Pu(seq1)     = 0.000116954
+  + ED(seq2)       = 7.44
+    : Pu(seq2)     = 5.71946e-06
+
+ENST00000565493.1
+          4003                                                                                                                                                                4146
+             |                                                                                                                                                                |
+5'-AGU...GCAU      UC-   A    CUA  -        C      GAA--   A       AAAC   A  C    GA C      AGACUA   AUU   U         GG-------------   AA    G       A   GAGGU      GGAGAG-    UCUG...GUA-3'
+             UUGUUU   AGU CUUC   GG AGUGGUUG AUUUGG     UGG AUUGUUA    UUG UG UUAG  G GAAUGC      UUC   GGG GUUUGGGGU               GGG  GGGG GGUGGGC GAG     AUGCAG       GGGU
+             |:||:|   ||: ||||   || |||:|::: ||||||     ||| |:||:||    ||| || |||:  | |||:||      :||   ||| :|||::|||               |:|  :|:| ||||::| :||     |:||||       ||||
+             AGCAGA   UCG GAAG   CC UCAUCGGU UAAACC     ACC UGACGAU    AAC AC AAUU  C CUUGCG      GAG   CCC UAAAUUCCA               CUC  UCUC CCACUUG UUC     UGCGUC       CCCA
+3'-AAA...CUUA      CCA   A    ---  A        -      AGUAG   -       ----   C  -    AA -      GAACAG   CU-   U         GAAGGAACGGUACAA   AC    G       G   -----      AUAAUAA    UUUG...UUA-5'
+             |                                                                                                                                                                |
+         28552                                                                                                                                                                28408
+NC_045512.2
+
+interaction seq1   = 4003..4146
+interaction seq2   = 28408..28552
+
+interaction energy = -32.47 kcal/mol
+  = E(init)        = 4.1
+  + E(loops)       = -93.2
+  + E(dangleLeft)  = -1
+  + E(dangleRight) = -0.41
+  + E(endLeft)     = 0.5
+  + E(endRight)    = 0.5
+    : E(hybrid)    = -89.51
+  + ED(seq1)       = 30.32
+    : Pu(seq1)     = 4.31333e-22
+  + ED(seq2)       = 26.72
+    : Pu(seq2)     = 1.48449e-19
