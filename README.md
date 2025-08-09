@@ -184,7 +184,7 @@ Since intaRNA is a complex program, it may be appropriate to check the original 
 After running IntaRNA, the program should emit a ".csv" file, exemplified as the following image:
 
 <div align="center">
-<img width="600" height="600" alt="image" src="https://github.com/user-attachments/assets/ca450eb6-aed1-4960-aaf9-0efb5da80ab7" />
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/ca450eb6-aed1-4960-aaf9-0efb5da80ab7" />
 </div>
 
 With the SubseqDP + hybridDP columns results, it is possible to visualize the secondary structure interaction via FORNA, available in [FORNA Webserver](http://rna.tbi.univie.ac.at/forna/)
@@ -192,7 +192,7 @@ With the SubseqDP + hybridDP columns results, it is possible to visualize the se
 The input for FORNA sould be as following:
 
 <div align="center">
-<img width="800" height="800" alt="image" src="https://github.com/user-attachments/assets/e84df8f0-69b9-4470-9813-b73813a52911" />
+<img width="1200" height="800" alt="image" src="https://github.com/user-attachments/assets/e84df8f0-69b9-4470-9813-b73813a52911" />
 </div>
 
 Still in FORNA, remove the "&" character in both sequences and secondary structure predictions.
@@ -200,7 +200,7 @@ Still in FORNA, remove the "&" character in both sequences and secondary structu
 The result should be something like this:
 
 <div align="center">
-<img width="600" height="600" alt="UCA1_001_Wuhan_Interaction_E" src="https://github.com/user-attachments/assets/03df389d-7a31-4ab7-b468-ec43228cd962" />
+<img width="800" height="600" alt="UCA1_001_Wuhan_Interaction_E" src="https://github.com/user-attachments/assets/03df389d-7a31-4ab7-b468-ec43228cd962" />
 </div>
 
 
